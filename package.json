@@ -1,0 +1,27 @@
+{
+  "name": "earth-react",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.109.1",
+    "@react-three/fiber": "^8.16.8",
+    "clsx": "^2.1.1",
+    "lil-gui": "^0.19.2",
+    "next": "14.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-jss": "^10.10.0",
+    "three": "^0.166.1",
+    "webpack-glsl-loader": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.5"
+  }
+}

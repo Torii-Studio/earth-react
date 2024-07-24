@@ -1,0 +1,49 @@
+@import "./reset.css";
+@import "./base.css";
+
+@font-face {
+  font-family: "NunitoSans";
+  src: url("/fonts/NunitoSans_7pt_Condensed-Regular.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NunitoSans";
+  src: url(/fonts/NunitoSans-ExtraLight.woff2) format("woff2");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NunitoSans";
+  src: url(/fonts/NunitoSans-Light.woff2) format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NunitoSans";
+  src: url(/fonts/NunitoSans-Regular.woff2) format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+html,
+body {
+  font-family: "NunitoSans";
+}
+
+body {
+  cursor: url("/images/cursor.png"), auto;
+}
+
+#app {
+  width: 100vw;
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
