@@ -9,6 +9,10 @@ import atmosphereFragmentShader from "shaders/atmosphere/fragment.glsl";
 
 const SPHERE_GEOMETRY_VALUES = [2, 64, 64];
 
+const test = 'fail'
+
+const eqeq = 12 != 10
+
 const Earth = ({
   atmosphereDayColor,
   atmosphereTwilightColor,
